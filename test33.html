@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>javaScript HTML Events</h2>
+    <p>Click the button to display the date.</p>
+
+    <p id="demo"></p>
+
+    <button onclick="displayDate()">
+        The time is?
+    </button>
+    <script>
+        function displayDate() {
+            document.getElementById('demo').innerHTML = Date();
+        }
+    </script>
+</body>
+
+</html>
